@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header id="inicio">
+        <nav class="navbar navbar-expand-xxl bg-dark p-3" id="menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <span class="text-danger fs-4 fw-bold">SaqqPage</span>
+              </a>
+              <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#redes-sociales">Redes Sociales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#conoceme">Conoceme</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="email" placeholder="Correo" aria-label="email">
+                  <button class="btn btn-danger btn-danger-outline-success text-dark" type="button">Suscribete</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <section class="textos-header">
+            <h1>Programacion para internet</h1>
+            <h2>Tarea Libre</h2>
+        </section>
+    </header>
+    <main>
+        <section class="secciones">
+            <div class="wave2" style="height: 100px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.99 C150.00,150.00 271.49,-49.99 500.00,49.99 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: hsla(0, 0%, 26%)">
+                    </path>
+                </svg>
+            </div>
+            <div class="contenedor" id="redes-sociales">
+                <h2 class="titulo">Redes Sociales</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+		                <a href="https://www.youtube.com/channel/UCAa_turm6-zWD1cMYsFkdIA">
+                            <img src="img/youtube1.jpeg" alt="">
+                            <div class="hover-galeria">           
+		                        <p>Canal de Youtube</p>
+                            </div>
+		                </a>
+                    </div>
+                    <div class="imagen-port2">
+                       <a href="https://twitter.com/saqq_skate">
+			                <img src="img/twitter.jpeg" alt="">
+                        <div class="hover-galeria">	  	
+	                        <p>Cuenta de Twitter</p>
+			            </div>
+		               </a>	
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
+    <section class="secciones" id="conoceme">
+        <div class="contenedor" id="conoceme">
+                <h2 class="titulo">Conoceme</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port2">
+                       <a href="https://saqq89.github.io/Trabajo-1_Curriculum-vitae/">
+			                <img src="img/curriculum.png" alt="">
+                        <div class="hover-galeria">	  	
+	                        <p>Curriculum Vitae</p>
+			            </div>
+		               </a>	
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="secciones" id="slide">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active btn btn-dark" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" class="btn btn-dark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" class="btn btn-dark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" class="btn btn-dark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://saqq89.github.io/Trabajo-1_Curriculum-vitae/"><img src="img/curriculum.png" class="d-block w-100 p-3" alt="curriculum"></a>
+                <rect width="100%" fill="#777"></rect>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo-img">Curriculum Vitae</h5>
+                  <p class="subtitulo-img">Trabajo 01 Maquetado en Html, Css.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://saqq89.github.io/tarea-libre-1---Quintero-Quiroz/"><img src="img/pagina-v1.jpeg" class="d-block w-100" alt="pagina-v1"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo-img">Primera version de la pagina</h5>
+                  <p class="subtitulo-img">Tarea libre 01.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://saqq89.github.io/Tarea-libre-2/"><img src="img/pagina-vs_js.jpeg" class="d-block w-100" alt="pagina-js"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo-img">Pagina version con JS</h5>
+                  <p class="subtitulo-img">Tarea libre 02.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://chat-saqq-89.netlify.app/"><img src="img/saqq-chat.jpeg" class="d-block w-100" alt="chat"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo-img">Chat Interactivo</h5>
+                  <p class="subtitulo-img">Trabajo 04  Chat con Node JS.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon btn btn-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon btn btn-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
